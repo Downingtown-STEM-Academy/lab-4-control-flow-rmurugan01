@@ -13,7 +13,13 @@
 let hasFish = true
 let hasPizza = false
 let hasVegan = true
-
+if(hasFish||hasPizza) && hasVegan{
+    print("Lets go!")
+}
+    else{
+        print("Sorry, we'll have to think of something else.")
+        
+}
 
 /*:
  Imagine you're trying to decide whether or not to go on a walk. You decide that you'll go on a walk if it's not raining or if it's 82 degress or warmer and NOT windy. Create a constant `walkingWeather` that is equal to an expression that evaluates to a boolean indicating whether or not the weather is nice enough for you to go for a walk. Write an if statement that will print "I'm going for a walk!" if the weather is nice. (1 points)
@@ -38,6 +44,8 @@ let isWindy = true
 */
 
 //insert your code here!!
-
+if !isRaining||(!isWindy && temp>=82){
+    print("I will go for a walk")
+}
 //insert print statements here!!
 //: [Previous](@previous)  |  page 4 of 9  |  [Next](@next)

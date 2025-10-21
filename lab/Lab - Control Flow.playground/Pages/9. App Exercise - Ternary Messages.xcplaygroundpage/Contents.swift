@@ -11,7 +11,7 @@ if Double(correctQuestions) / Double(totalQuestions) < 0.70 {
 } else {
     print("You're doing great.")
 }
-
+var tern=Double(correctQuestions)/Double(totalQuestions)<0.7 ? "You need to study more": "Your Doing Great!"
 
 
 //: [Previous](@previous)  |  page 9 of 9
